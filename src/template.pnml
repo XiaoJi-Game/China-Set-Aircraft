@@ -1,0 +1,15 @@
+template template_empty(x ,y) {
+//"There's nothing here yet"
+}
+
+template template_purchase(x ,y) {
+/"There's nothing here yet"
+}
+
+template template_empty_32bpp(x ,y) {
+/"There's nothing here yet"
+}
+
+template template_purchase_32bpp(x ,y) {
+/"There's nothing here yet"
+}

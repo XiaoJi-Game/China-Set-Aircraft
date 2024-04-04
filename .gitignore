@@ -1,0 +1,7 @@
+/backups
+/.vs
+/.git
+*.grf
+*.nml
+copygrf.bat
+*.exe

@@ -1,0 +1,6 @@
+#include "csa.pnml"
+
+#include "src/template.pnml"
+
+#include "src/aircraft/ma60_graphics.pnml"
+#include "src/aircraft/ma60_item.pnml"

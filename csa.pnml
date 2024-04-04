@@ -1,0 +1,23 @@
+grf {
+    grfid : "\CN\AC\03\01";
+	name : string(STR_GRF_NAME);
+	desc : string(STR_GRF_DESC);
+	version : 0;
+	min_compatible_version : 0;
+
+    param 1 {
+        param_8bpp_32bpp {
+            type : int;
+            name : string(STR_PARAM_NAME_8BPP_32BPP);
+            desc : string(STR_PARAM_DESC_8BPP_32BPP);
+            min_value : 0;
+            max_value : 1;
+            def_value : 0;
+            names : {
+                0 : string(STR_PARAM_8BPP_32BPP_32BPP_NAME);
+                1 : string(STR_PARAM_8BPP_32BPP_8BPP_NAME);
+            }
+        }
+    }
+
+}
