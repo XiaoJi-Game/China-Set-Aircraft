@@ -1,4 +1,44 @@
-switch (FEAT_AIRCRAFT ,SELF ,switch_am60_graphics_832 ,param_8bpp_32bpp) {
+spriteset (spriteset_ma60_2ccap_1 ,"gfx/ma60/ma60_2ccap_1_1x_8bpp.png") {
+    template_empty(0 ,0 )
+}
+spriteset (spriteset_ma60_2ccap_2 ,"gfx/ma60/ma60_2ccap_2_1x_8bpp.png") {
+    template_empty(0 ,0 )
+}
+
+spriteset (spriteset_purchase_ma60 ,"gfx/ma60/ma60_2ccap_1_1x_8bpp.png") {
+    template_purchase(0 ,0 )
+}
+
+spriteset (spriteset_32bpp_ma60_2ccap_1 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ,"gfx/ma60/ma60_2ccap_1_4x_32bpp.png" ,"gfx/ma60/ma60_2ccap_1_4x_mask.png") {
+    template_empty_32bpp(0 ,0 )
+}
+spriteset (spriteset_32bpp_ma60_2ccap_2 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ,"gfx/ma60/ma60_2ccap_2_4x_32bpp.png" ,"gfx/ma60/ma60_2ccap_2_4x_mask.png") {
+    template_empty_32bpp(0 ,0 )
+}
+
+spriteset (spriteset_32bpp_purchase_ma60 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ,"gfx/ma60/ma60_2ccap_1_4x_32bpp.png" ,"gfx/ma60/ma60_2ccap_1_4x_mask.png") {
+    template_purchase_32bpp(0 ,0 )
+}
+
+switch (FEAT_AIRCRAFT ,SELF ,switch_ma60_cargo_subtype ,cargo_subtype) {
+    0 : return string(STR_MA60_TYPE_2CCAP_1);
+    1 : return string(STR_MA60_TYPE_2CCAP_2);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT ,SELF ,switch_ma60_graphics_8bpp_subtype ,cargo_subtype) {
+    0 : spriteset_ma60_2ccap_1;
+    1 : spriteset_ma60_2ccap_2;
+    spriteset_ma60_2ccap_1;
+}
+
+switch (FEAT_AIRCRAFT ,SELF ,switch_ma60_graphics_32bpp_subtype ,cargo_subtype) {
+    0 : spriteset_32bpp_ma60_2ccap_1;
+    1 : spriteset_32bpp_ma60_2ccap_2;
+    spriteset_32bpp_ma60_2ccap_1;
+}
+
+switch (FEAT_AIRCRAFT ,SELF ,switch_ma60_graphics_832 ,param_8bpp_32bpp) {
     0 : switch_ma60_graphics_32bpp_subtype;
     switch_ma60_graphics_8bpp_subtype;
 }
@@ -6,80 +46,4 @@ switch (FEAT_AIRCRAFT ,SELF ,switch_am60_graphics_832 ,param_8bpp_32bpp) {
 switch (FEAT_AIRCRAFT ,SELF ,switch_spriteset_purchase_ma60_832 ,param_8bpp_32bpp) {
     0 : spriteset_32bpp_purchase_ma60;
     spriteset_purchase_ma60;
-}
-
-switch (FEAT_AIRCRAFT ,SELF ,switch_ma60_cargo_subtype ,cargo_subtype) {
-    0 : return string(STR_MA60_TYPE_2CCAP_1);
-    1 :  return string(STR_MA60_TYPE_2CCAP_2);
-    2 :  return string(STR_MA60_TYPE_2CCAP_3);
-    3 :  return string(STR_MA60_TYPE_2CCAP_4);
-    4 :  return string(STR_MA60_TYPE_TRULY_1);
-    5 :  return string(STR_MA60_TYPE_TRULY_2);
-    return CB_RESULT_NO_TEXT;
-}
-
-switch (FEAT_AIRCRAFT ,SELF ,switch_ma60_graphics_8bpp_subtype ,cargo_subtype) {
-    0 : spriteset_ma60_2ccap_1;
-    1 : spriteset_ma60_2ccap_2;
-    2 : spriteset_ma60_2ccap_3;
-    3 : spriteset_ma60_2ccap_4;
-    4 : spriteset_ma60_truly_1;
-    5 : spriteset_ma60_truly_2;
-    return spriteset_ma60_2ccap_1;
-}
-
-switch (FEAT_AIRCRAFT ,SELF ,switch_ma60_graphics_32bpp_subtype ,cargo_subtype) {
-    0 : spriteset_32bpp_ma60_2ccap_1;
-    1 : spriteset_32bpp_ma60_2ccap_2;
-    2 : spriteset_32bpp_ma60_2ccap_3;
-    3 : spriteset_32bpp_ma60_2ccap_4;
-    4 : spriteset_32bpp_ma60_truly_1;
-    5 : spriteset_32bpp_ma60_truly_2;
-    return spriteset_32bpp_ma60_2ccap_1;
-}
-
-spriteset (spriteset_ma60_2ccap_1 ,"gfx/ma60_2ccap_1_8bpp.png") {
-    template_empty(0 ,0 );
-}
-spriteset (spriteset_ma60_2ccap_2 ,"gfx/ma60_2ccap_2_8bpp.png") {
-    template_empty(0 ,0 );
-}
-spriteset (spriteset_ma60_2ccap_3 ,"gfx/ma60_2ccap_3_8bpp.png") {
-    template_empty(0 ,0 );
-}
-spriteset (spriteset_ma60_2ccap_4 ,"gfx/ma60_2ccap_4_8bpp.png") {
-    template_empty(0 ,0 );
-}
-spriteset (spriteset_ma60_truly_1 ,"gfx/ma60_truly_1_8bpp.png") {
-    template_empty(0 ,0 );
-}
-spriteset (spriteset_ma60_truly_2 ,"gfx/ma60_truly_2_8bpp.png") {
-    template_empty(0 ,0 );
-}
-
-spriteset (spriteset_purchase_ma60 ,"gfx/ma60_2ccap_1_8bpp.png") {
-    template_purchase(0 ,0 );
-}
-
-alternative_sprites (spriteset_32bpp_ma60_2ccap_1 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ，"gfx/ma60_2ccap_1_32bpp.png" ,"gfx/ma60_2ccap_1_mask.png") {
-    template_empty_32bpp(0 ,0 );
-}
-alternative_sprites (spriteset_32bpp_ma60_2ccap_2 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ，"gfx/ma60_2ccap_2_32bpp.png" ,"gfx/ma60_2ccap_2_mask.png") {
-    template_empty_32bpp(0 ,0 );
-}
-alternative_sprites (spriteset_32bpp_ma60_2ccap_3 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ，"gfx/ma60_2ccap_3_32bpp.png" ,"gfx/ma60_2ccap_3_mask.png") {
-    template_empty_32bpp(0 ,0 );
-}
-alternative_sprites (spriteset_32bpp_ma60_2ccap_4 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ，"gfx/ma60_2ccap_4_32bpp.png" ,"gfx/ma60_2ccap_4_mask.png") {
-    template_empty_32bpp(0 ,0 );
-}
-alternative_sprites (spriteset_32bpp_ma60_truly_1 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ，"gfx/ma60_truly_1_32bpp.png" ,"gfx/ma60_truly_1_mask.png") {
-    template_empty_32bpp(0 ,0 );
-}
-alternative_sprites (spriteset_32bpp_ma60_truly_2 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ，"gfx/ma60_truly_2_32bpp.png" ,"gfx/ma60_truly_2_mask.png") {
-    template_empty_32bpp(0 ,0 );
-}
-
-alternative_sprites (spriteset_32bpp_purchase_ma60 ,ZOOM_LEVEL_IN_4X ,BIT_DEPTH_32BPP ，"gfx/ma60_2ccap_1_32bpp.png" ,"gfx/ma60_2ccap_1_mask.png") {
-    template_purchase_32bpp(0 ,0 );
 }

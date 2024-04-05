@@ -1,5 +1,5 @@
 grf {
-    grfid : "\CN\AC\03\01";
+    grfid : "\58\43\53\01";
 	name : string(STR_GRF_NAME);
 	desc : string(STR_GRF_DESC);
 	version : 0;
@@ -16,7 +16,7 @@ grf {
             names : {
                 0 : string(STR_PARAM_8BPP_32BPP_32BPP_NAME);
                 1 : string(STR_PARAM_8BPP_32BPP_8BPP_NAME);
-            }
+            };
         }
     }
 

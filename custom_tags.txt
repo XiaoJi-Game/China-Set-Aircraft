@@ -1,2 +1,2 @@
-VERSION :0.1.0.2403.15
+VERSION :0.1.0.2404.08
 URL :https://github.com/XiaoJi-Game/China-Set-Aircraft

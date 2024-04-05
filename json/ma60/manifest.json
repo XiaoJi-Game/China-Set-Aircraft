@@ -14,60 +14,60 @@
   "detail_boost": 10.0,
   "falloff_adjustment": 0.5,
   "size": {
-    "x": 256,
-    "y": 256,
-    "z": 128
+    "x": 124,
+    "y": 146,
+    "z": 44
   },
   "render_elevation": 30,
   "sprites": [
     {
       "angle": 0,
-      "width": 120,
-      "height": 110,
+      "width": 60,
+      "height": 55,
       "flip": true,
       "render_elevation": 33
     },
     {
       "angle": 45,
-      "width": 160,
-      "height": 120,
+      "width": 80,
+      "height": 60,
       "flip": true
     },
     {
       "angle": 90,
-      "width": 140,
-      "height": 90,
+      "width": 70,
+      "height": 45,
       "flip": true
     },
     {
       "angle": 135,
-      "width": 160,
-      "height": 120,
+      "width": 80,
+      "height": 60,
       "flip": true
     },
     {
       "angle": 180,
-      "width": 120,
-      "height": 110,
+      "width": 60,
+      "height": 55,
       "flip": true,
       "render_elevation": 33
     },
     {
       "angle": 225,
-      "width": 160,
-      "height": 120,
+      "width": 80,
+      "height": 60,
       "flip": true
     },
     {
       "angle": 270,
-      "width": 140,
-      "height": 90,
+      "width": 70,
+      "height": 45,
       "flip": true
     },
     {
       "angle": 315,
-      "width": 160,
-      "height": 120,
+      "width": 80,
+      "height": 60,
       "flip": true
     }
   ]

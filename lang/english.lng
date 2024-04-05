@@ -1,25 +1,16 @@
 ##grflangid 0x01
 
 STR_GRF_NAME :China Set: Aircraft {VERSION}
-
 STR_GRF_DESC :China Set:Aircraft.{}Github:{URL}
-
 
 STR_PARAM_NAME_8BPP_32BPP :32 bit sprites or 8 bit sprites
 STR_PARAM_DESC_8BPP_32BPP :Choose sprites are 32bit or 8bit.(32bpp/8bpp)
 STR_PARAM_8BPP_32BPP_32BPP_NAME :32bpp
 STR_PARAM_8BPP_32BPP_8BPP_NAME :8bpp
 
-
 STR_NAME_MA60 :Modern Ark 60
 
 STR_MA60_TYPE_2CCAP_1 :2cc Aircraft Paint 1
 STR_MA60_TYPE_2CCAP_2 :2cc Aircraft Paint 2
-STR_MA60_TYPE_2CCAP_3 :2cc Aircraft Paint 3
-STR_MA60_TYPE_2CCAP_4 :2cc Aircraft Paint 4
-STR_MA60_TYPE_TRULY_1 :Truly Aircraft Paint 1
-STR_MA60_TYPE_TRULY_2 :Truly Aircraft Paint 2
-
-
 
 STR_DESC_MA60 :{BLACK}Cargo age period:{NBSP}{GOLD}82 {BLACK}Acceleration:{NBSP}{GOLD}28{}{}{BLACK}MA60 is a 50-60 seat class twin-turboprop regional airliner developed and produced by Xi 'an Aircraft Industry (Group) Co., Ltd. under the Aviation Industry Corporation of China on the basis of the Y-7 short/medium range transport aircraft.
