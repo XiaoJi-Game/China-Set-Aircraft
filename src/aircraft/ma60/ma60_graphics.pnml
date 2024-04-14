@@ -1,0 +1,8 @@
+	graphics{
+		default: switch_ma60_graphics_832;
+		purchase: switch_spriteset_purchase_ma60_832;
+        cargo_subtype_text: return 0;
+        additional_text: return string(STR_DESC_MA60);
+        sound_effect: SOUND_SKID_PLANE;
+	}
+}

@@ -1,0 +1,19 @@
+spriteset(spriteset_ma60_purchase_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\default\ma60_4x_32bpp.png"){
+	template_purchase_32(1713, 0)
+}
+
+spriteset(spriteset_ma60_purchase_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_8BPP, "gfx\ma60\ma60_2ccap_1\default\ma60_1x_8bpp.png"){
+	template_purchase_8(429, 0)
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_spriteset_purchase_ma60_832, param_8bpp_32bpp){
+	0: spriteset_ma60_purchase_32;
+	1: spriteset_ma60_purchase_8;
+	spriteset_ma60_purchase_32;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_ma60_graphics_832, param_8bpp_32bpp){
+	0: switch_ma60_graphics_32;
+	1: switch_ma60_graphics_8;
+	switch_ma60_graphics_32;
+}

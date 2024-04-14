@@ -1,0 +1,35 @@
+spriteset(sprite_ma60_flying_1_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\flying\ma60_flying_1_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_ma60_flying_2_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\flying\ma60_flying_2_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_ma60_flying_3_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\flying\ma60_flying_3_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_ma60_crashed_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\crashed\ma60_crashed_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_ma60_taxi_1_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\taxi\ma60_taxi_1_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_ma60_taxi_2_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\taxi\ma60_taxi_2_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_ma60_taxi_3_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\taxi\ma60_taxi_3_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_ma60_stop_small_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\loading\ma60_loading_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_ma60_stop_large_32, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap_1\default\ma60_4x_32bpp.png"){
+	template_small_32(0, 0)
+}

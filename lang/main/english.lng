@@ -1,0 +1,12 @@
+##grflangid 0x01
+
+STR_GRF_NAME :China Set: Aircraft
+STR_GRF_DESC :China Set:Aircraft.{}Github:{URL}{}{VERSION}
+
+#include "aircraft/english.lng"
+
+#include "description/english.lng"
+
+#include "param/english.lng"
+
+#include "type/english.lng"

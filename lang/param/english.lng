@@ -1,0 +1,4 @@
+STR_PARAM_NAME_8BPP_32BPP :32 bit sprites or 8 bit sprites
+STR_PARAM_DESC_8BPP_32BPP :Choose sprites are 32bit or 8bit.(32bpp/8bpp)
+STR_PARAM_8BPP_32BPP_32BPP_NAME :32bpp
+STR_PARAM_8BPP_32BPP_8BPP_NAME :8bpp
