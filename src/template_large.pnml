@@ -1,0 +1,29 @@
+template template_empty(x ,y) {
+	[]
+	[]
+	[]
+	[]
+	[]
+	[]
+	[]
+	[]
+}
+
+template template_purchase(x ,y) {
+	[]
+}
+
+template template_empty_32bpp(x ,y) {
+	[]
+	[]
+	[]
+	[]
+	[]
+	[]
+	[]
+	[]
+}
+
+template template_purchase_32bpp(x ,y) {
+	[]
+}
