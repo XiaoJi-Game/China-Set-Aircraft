@@ -1,9 +1,9 @@
-/backups
-/.vs
 /.git
 /.nmlcache
+/.vs
+/backups
 *.grf
 copygrf.bat
 *.nml
-*.exe
 gorender.txt
+*.exe

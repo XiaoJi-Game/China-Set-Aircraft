@@ -1,4 +1,5 @@
 #include "csa.pnml"
+#include "src/grf_switch.pnml"
 
 #include "src/template_small.pnml"
 
@@ -7,11 +8,11 @@
 #include "src/aircraft/ma60/ma60_spriteset_8_2ccap_1.pnml"
 
 #include "src/aircraft/ma60/ma60_switch_32_2ccap_1.pnml"
-#include "src/aircraft/ma60/ma60_switch_32_2ccap_2.pnml"
 #include "src/aircraft/ma60/ma60_switch_8_2ccap_1.pnml"
-#include "src/aircraft/ma60/ma60_switch_8_2ccap_2.pnml"
 #include "src/aircraft/ma60/ma60_switch_832.pnml"
-
 
 #include "src/aircraft/ma60/ma60_item.pnml"
 #include "src/aircraft/ma60/ma60_graphics.pnml"
+//ma60
+
+#include "other.pnml"
