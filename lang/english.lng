@@ -1,25 +1,57 @@
-# 1 "main/english.lng"
 ##grflangid 0x01
 
+#Description
 STR_GRF_NAME :China Set: Aircraft
-STR_GRF_DESC :China Set:Aircraft.{}Github:{URL}{}{WHITE}{VERSION}
+STR_GRF_DESC :China Set:Aircraft.{}Github:{URL}{}{WHITE}{VERSION}{}{RED}{NUMBER}
 
-# 1 "aircraft/english.lng" 1
+#Vehicle Names
 STR_NAME_MA60 :Modern Ark 60
-# 1 "main/english.lng" 6
 
-# 1 "description/english.lng" 1
-STR_DESC_MA60 :{BLACK}Cargo age period:{NBSP}{GOLD}82 {BLACK}Acceleration:{NBSP}{GOLD}28{}{}{BLACK}MA60 is a 50-60 seat class twin-turboprop regional airliner developed and produced by Xi 'an Aircraft Industry (Group) Co., Ltd. under the Aviation Industry Corporation of China on the basis of the Y-7 short/medium range transport aircraft.
-# 1 "main/english.lng" 6
+#Vehicle Descriptions
+STR_DESC_MA60 :{}{}{BLACK}MA60 is a 50-60 seat class twin-turboprop regional airliner developed and produced by Xi 'an Aircraft Industry (Group) Co., Ltd. under the Aviation Industry Corporation of China on the basis of the Y-7 short/medium range transport aircraft.
 
-# 1 "param/english.lng" 1
-STR_PARAM_NAME_8BPP_32BPP :32 bit sprites or 8 bit sprites
-STR_PARAM_DESC_8BPP_32BPP :Choose sprites are 32bit or 8bit.(32bpp/8bpp)
-STR_PARAM_8BPP_32BPP_32BPP_NAME :32bpp
-STR_PARAM_8BPP_32BPP_8BPP_NAME :8bpp(Deprecated)
-# 1 "main/english.lng" 6
+#GRF Parameters
+STR_PARAM_NAME_8BPP_32BPP :Change sprites type
+STR_PARAM_DESC_8BPP_32BPP :Switch between 32 bit sprites /8 bit sprites
+STR_PARAM_8BPP_32BPP_32BPP_NAME :32 bit
+STR_PARAM_8BPP_32BPP_8BPP_NAME :8 bit
+STR_PARAM_NAME_COST :Vehicle purchase cost
+STR_PARAM_DESC_COST :Change vehicle purchase cost
+STR_PARAM_COST_800 :x1/256
+STR_PARAM_COST_700 :x1/128
+STR_PARAM_COST_600 :x1/64
+STR_PARAM_COST_500 :x1/32
+STR_PARAM_COST_400 :x1/16
+STR_PARAM_COST_300 :x1/8
+STR_PARAM_COST_200 :x1/4
+STR_PARAM_COST_100 :x1/2
+STR_PARAM_COST_0 :Default
+STR_PARAM_COST_1 :x2
+STR_PARAM_COST_2 :x4
+STR_PARAM_COST_3 :x8
+STR_PARAM_COST_4 :x16
+STR_PARAM_COST_5 :x32
+STR_PARAM_COST_6 :x64
+STR_PARAM_COST_7 :x128
+STR_PARAM_COST_8 :x256
+STR_PARAM_COST_9 :x512
+STR_PARAM_COST_10 :x1024
+STR_PARAM_COST_11 :x2048
+STR_PARAM_COST_12 :x4096
+STR_PARAM_COST_13 :x8192
+STR_PARAM_COST_14 :x16384
+STR_PARAM_COST_15 :x32768
+STR_PARAM_COST_16 :x65536
+STR_PARAM_NAME_RUN_COST :Vehicle running cost
+STR_PARAM_DESC_RUN_COST :Change vehicle running cost
+STR_PARAM_NAME_CARGO_AGE :Cargo age period
+STR_PARAM_DESC_CARGO_AGE :This parameter specifies after how many ticks cargo is aged.
+STR_PARAM_CARGO_AGE_0 :cargo does not age
+STR_PARAM_CARGO_AGE_1 :50%
+STR_PARAM_CARGO_AGE_2 :75%
+STR_PARAM_CARGO_AGE_3 :Default
+STR_PARAM_CARGO_AGE_4 :125%
+STR_PARAM_CARGO_AGE_5 :150%
 
-# 1 "type/english.lng" 1
-STR_MA60_TYPE_2CCAP_1 :2cc Aircraft Paint 1
-STR_MA60_TYPE_2CCAP_2 :2cc Aircraft Paint 2
-# 1 "main/english.lng" 6
+#Other
+STR_EMPTY :Empty

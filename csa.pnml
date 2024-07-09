@@ -2,7 +2,7 @@ grf {
     grfid: "\58\43\53\01";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESC);
-	version: 11;
+	version: 12;
 	min_compatible_version: 0;
 
 	param 1{
@@ -20,4 +20,103 @@ grf {
 		}
 	}
 
+	param 2{
+		param_cost{
+			type: int;
+			name: string(STR_PARAM_NAME_COST);
+			desc: string(STR_PARAM_DESC_COST);
+			min_value: 0;
+			max_value: 24;
+			def_value: 8;
+			names: {
+				0: string(STR_PARAM_COST_800);
+				1: string(STR_PARAM_COST_700);
+				2: string(STR_PARAM_COST_600);
+				3: string(STR_PARAM_COST_500);
+				4: string(STR_PARAM_COST_400);
+				5: string(STR_PARAM_COST_300);
+				6: string(STR_PARAM_COST_200);
+				7: string(STR_PARAM_COST_100);
+				8: string(STR_PARAM_COST_0);
+				9: string(STR_PARAM_COST_1);
+				10: string(STR_PARAM_COST_2);
+				11: string(STR_PARAM_COST_3);
+			    12: string(STR_PARAM_COST_4);
+				13: string(STR_PARAM_COST_5);
+				14: string(STR_PARAM_COST_6);
+				15: string(STR_PARAM_COST_7);
+				16: string(STR_PARAM_COST_8);
+				17: string(STR_PARAM_COST_9);
+				18: string(STR_PARAM_COST_10);
+				19: string(STR_PARAM_COST_11);
+				20: string(STR_PARAM_COST_12);
+				21: string(STR_PARAM_COST_13);
+				22: string(STR_PARAM_COST_14);
+				23: string(STR_PARAM_COST_15);
+				24: string(STR_PARAM_COST_16);
+			};
+		}
+	}
+
+	param 3{
+		param_running_cost{
+			type: int;
+			name: string(STR_PARAM_NAME_RUN_COST);
+			desc: string(STR_PARAM_DESC_RUN_COST);
+			min_value: 0;
+			max_value: 24;
+			def_value: 8;
+			names: {
+				0: string(STR_PARAM_COST_800);
+				1: string(STR_PARAM_COST_700);
+				2: string(STR_PARAM_COST_600);
+				3: string(STR_PARAM_COST_500);
+				4: string(STR_PARAM_COST_400);
+				5: string(STR_PARAM_COST_300);
+				6: string(STR_PARAM_COST_200);
+				7: string(STR_PARAM_COST_100);
+				8: string(STR_PARAM_COST_0);
+				9: string(STR_PARAM_COST_1);
+				10: string(STR_PARAM_COST_2);
+				11: string(STR_PARAM_COST_3);
+				12: string(STR_PARAM_COST_4);
+				13: string(STR_PARAM_COST_5);
+				14: string(STR_PARAM_COST_6);
+				15: string(STR_PARAM_COST_7);
+				16: string(STR_PARAM_COST_8);
+				17: string(STR_PARAM_COST_9);
+				18: string(STR_PARAM_COST_10);
+				19: string(STR_PARAM_COST_11);
+				20: string(STR_PARAM_COST_12);
+				21: string(STR_PARAM_COST_13);
+				22: string(STR_PARAM_COST_14);
+				23: string(STR_PARAM_COST_15);
+				24: string(STR_PARAM_COST_16);
+			};
+		}
+	}
+
+	param 4{
+		param_cargo_age_period{
+			type: int;
+			name: string(STR_PARAM_NAME_CARGO_AGE);
+			desc: string(STR_PARAM_DESC_CARGO_AGE);
+			min_value: 0;
+			max_value: 5;
+			def_value: 3;
+			names: {
+				0: string(STR_PARAM_CARGO_AGE_0);
+				1: string(STR_PARAM_CARGO_AGE_1);
+				2: string(STR_PARAM_CARGO_AGE_2);
+				3: string(STR_PARAM_CARGO_AGE_3);
+				4: string(STR_PARAM_CARGO_AGE_4);
+				5: string(STR_PARAM_CARGO_AGE_5);
+			};
+		}
+	}
+}
+
+basecost {
+	PR_BUILD_VEHICLE: param[2] -  8;
+	PR_RUNNING: param[3] - 8;
 }
