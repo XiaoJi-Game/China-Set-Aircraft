@@ -3,9 +3,9 @@
 #include "src/template_small.pnml"
 
 //ma60
-#include "src/aircraft/ma60/ma60_spriteset_2ccap_.pnml"
+#include "src/aircraft/ma60/ma60_spriteset_2ccap.pnml"
 
-#include "src/aircraft/ma60/ma60_switch_2ccap_.pnml"
+#include "src/aircraft/ma60/ma60_switch_2ccap.pnml"
 #include "src/aircraft/ma60/ma60_switch_main.pnml"
 
 #include "src/aircraft/ma60/ma60_main.pnml"
