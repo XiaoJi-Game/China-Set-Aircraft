@@ -24,3 +24,11 @@ item(FEAT_AIRCRAFT, item_air_ma60, 1){
 		mail_capacity: 6;
 		sound_effect: SOUND_TAKEOFF_PROPELLER;
 	}
+		graphics{
+		default: switch_ma60_graphics;
+		purchase: spriteset_ma60_purchase;
+        additional_text: string(STR_DESC_MA60);
+        sound_effect: SOUND_SKID_PLANE;
+		cargo_age_period: switch_cargo_age_ma60;
+	}
+}

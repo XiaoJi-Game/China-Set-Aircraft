@@ -1,0 +1,13 @@
+spriteset(spriteset_ma60_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\ma60_2ccap\default\ma60_4x_32bpp.png"){
+	template_purchase_32(0, 0)
+}
+
+switch (FEAT_AIRCRAFT, SELF,  switch_cargo_age_ma60, param[4]) {
+	0: return 0;
+	1: return 82 * 1/2;
+	2: return 82 * 3/4;
+	3: return 82;
+	4: return 82 * 5/4;
+	5: return 82 * 3/2;
+	return 82;
+}
