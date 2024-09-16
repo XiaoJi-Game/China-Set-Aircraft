@@ -9,23 +9,37 @@
     - 2.1 [Requirements](https://github.com/XiaoJi-Game/China-Set-Aircraft#21-requirements)
     - 2.2 [Installation](https://github.com/XiaoJi-Game/China-Set-Aircraft#22-installation)
     - 2.3 [Parameter settings](https://github.com/XiaoJi-Game/China-Set-Aircraft#23-parameter-setting)
-3. [Known issues](https://github.com/XiaoJi-Game/China-Set-Aircraft#3-know-issues)
-4. [Credits](https://github.com/XiaoJi-Game/China-Set-Aircraft#4-credits)
-5. [Obtaining the source](https://github.com/XiaoJi-Game/China-Set-Aircraft#5-obtaining-the-source)
+3. [Credits](https://github.com/XiaoJi-Game/China-Set-Aircraft#4-credits)
+4. [Obtaining the source](https://github.com/XiaoJi-Game/China-Set-Aircraft#5-obtaining-the-source)
 
 ## 1 About
 
 ### 1.1 About
 
-This is a repository for OpenTTD NewGRF.This NewGRF about Chinese Aircraft.In this NewGRF,you can see and buy many Chinese Aircraft.This NewGRF belongs to one of the projects in the China Set.(We advise you also try to use other China Set NewGRF like [China Set:Train](https://github.com/JohnFranklin523/China-Set-Trains) and [China Set:Platforms and Stations Publicl](https://github.com/WenSimEHRP/China-Set-Platforms-and-Stations).They are also very wonderful.If you have any problems,you can send emails to my email(See my bio).
+CSA is about the OpenTTD NewGRF for Chinese aircraft.\
+Everything in this NewGRF is Mainland China aircrafts.
 
 ### 1.2 License
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+```text
+China Set: Aircraft
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Copyright (C) 2024 XiaoJi_Game
 
-You should have received a copy of the GNU General Public License along with this program; if not, please check [here](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, please check
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+```
 
 ## 2 General information
 
@@ -36,39 +50,29 @@ You should have received a copy of the GNU General Public License along with thi
 
 ### 2.2 Installation
 
-[Download OpenTTD](https://www.openttd.org/)
-
+[Download OpenTTD](https://www.openttd.org/)\
 This NewGRF is unavailable from the ingame Online Content now.
 
 ### 2.3 Parameter settings
 
-You can choose 8bpp or 32bpp (I'm not sure it's effective. - April 4th,2024 -)
+This NewGRF has two variable parameters.\
+Parameter 1 can change the purchase cost of the vehicle. From 1/256 times the lowest to 65,535 times the highest.\
+Parameter 2 can change the running cost of the vehicle. From 1/256 times the lowest to 65,535 times the highest.
 
-## 3 Known issues
+## 3 Credits
 
-As far as I know,temporarily not have.
+Creater
+- XiaoJi_Game
 
-## 4 Credits
+Some people have helped in some ways.
 
-|Name|Role|Other Info|
-|-|-|-|
-|XiaoJi_Game|Project founder|Write the main program|
-|WenSim|Technical guidance||
-|John Franklin|Technical guidance|Some code is referenced from his code|
-|FulliAutomatix|NML Py-Patcher|[About more](https://www.tt-forums.net/viewtopic.php?f=68&t=83239)|
-|Matt Kimber|GoRender|GoRender produces dimetric-projection sprites ([About more](https://github.com/mattkimber/gorender))|
+## 4 Obtaining the source
 
-## 5 Obtaining the source
+The source code can be obtained from [Github](https://github.com/XiaoJi-Game/China-Set-Aircraft).
 
-The source code can be obtained from GitHub.([Here](https://github.com/XiaoJi-Game/China-Set-Aircraft))
+These tools are required to build the GRF:
 
-1.Download source code.
+- [NML](https://www.tt-wiki.net/wiki/NMLTutorial/Installation)
+- [Gorender](https://github.com/mattkimber/gorender)(Dispensable)
 
-2.Change a few files, or change nothing.
-
-3.Use GoRender.GoRender produces dimetric-projection sprites for games such as Transport Tycoon / OpenTTD from voxel objects in the MagicaVoxel file format.
-
-4.Running pybuild.bat (NML Py-Patcher).it can read references from pnml files to patch together and use custom variable definitions for reference in the code.
-The rest will just be written directly to the nml file to be compiled.
-
-5.Now you get a grf files.Finishing now!
+All code files are .pnml files, so you need to process the files before you can compile with NML.

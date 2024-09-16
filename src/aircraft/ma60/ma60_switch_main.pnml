@@ -2,7 +2,7 @@ spriteset(spriteset_ma60_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma60\
 	template_purchase_32(0, 0)
 }
 
-switch (FEAT_AIRCRAFT, SELF,  switch_cargo_age_ma60, param[4]) {
+switch (FEAT_AIRCRAFT, SELF, switch_cargo_age_ma60, param[5]) {
 	0: return 0;
 	1: return 82 * 1/2;
 	2: return 82 * 3/4;
@@ -10,4 +10,17 @@ switch (FEAT_AIRCRAFT, SELF,  switch_cargo_age_ma60, param[4]) {
 	4: return 82 * 5/4;
 	5: return 82 * 3/2;
 	return 82;
+}
+
+switch (FEAT_AIRCRAFT, SELF, switch_ma60_loadspd, param[4]) {
+	0: return 15 * 1/2;
+	1: return 15;
+	2: return 15 * 2;
+	3: return 15 * 4;
+	return 15;
+}
+
+switch (FEAT_AIRCRAFT, SELF, switch_ma60_name, vehicle_is_testing) {
+	1: return string(STR_NAME_MA60_TEST);
+	return string(STR_NAME_MA60);
 }

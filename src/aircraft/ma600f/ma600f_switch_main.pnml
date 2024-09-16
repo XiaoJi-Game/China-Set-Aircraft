@@ -1,0 +1,21 @@
+spriteset(spriteset_ma600f_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\default\ma600_4x_32bpp.png"){
+	template_purchase_32(0, 0)
+}
+
+switch (FEAT_AIRCRAFT, SELF, switch_cargo_age_ma600f, param[5]) {
+	0: return 0;
+	1: return 90 * 1/2;
+	2: return 90 * 3/4;
+	3: return 90;
+	4: return 90 * 5/4;
+	5: return 90 * 3/2;
+	return 90;
+}
+
+switch (FEAT_AIRCRAFT, SELF, switch_ma600f_loadspd, param[4]) {
+	0: return 15 * 1/2;
+	1: return 15;
+	2: return 15 * 2;
+	3: return 15 * 4;
+	return 15;
+}

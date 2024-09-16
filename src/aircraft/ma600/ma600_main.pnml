@@ -1,18 +1,18 @@
-item(FEAT_AIRCRAFT, item_air_ma60, 1){
+item(FEAT_AIRCRAFT, item_air_ma600, 2){
 	property{
-		name: string(STR_NAME_MA60);
+		name: string(STR_NAME_MA600);
 		climates_available: ALL_CLIMATES & ~bitmask(CLIMATE_TOYLAND);
-		introduction_date: date(2000,01,01);
+		introduction_date: date(2009,01,01);
 		model_life: VEHICLE_NEVER_EXPIRES;
 		vehicle_life: 20;
-		reliability_decay: 30;
+		reliability_decay: 28;
 		refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
 		non_refittable_cargo_classes: bitmask();
 		loading_speed: 15;
-		cost_factor: 141;
-		running_cost_factor: 103;
-		cargo_age_period: 82;
-        variant_group: 1;
+		cost_factor: 146;
+		running_cost_factor: 107;
+		cargo_age_period: 90;
+        variant_group: 2;
         
 		sprite_id: SPRITE_ID_NEW_AIRCRAFT;
 		speed: 514 km/h;
@@ -21,17 +21,16 @@ item(FEAT_AIRCRAFT, item_air_ma60, 1){
 		refit_cost: 0;
 		aircraft_type: AIRCRAFT_TYPE_SMALL;
 		acceleration: 28;
-		passenger_capacity: 56;
-		mail_capacity: 6;
+		passenger_capacity: 60;
+		mail_capacity: 8;
 		sound_effect: SOUND_TAKEOFF_PROPELLER;
 	}
 	graphics{
-		default: switch_ma60_graphics;
-		purchase: spriteset_ma60_purchase;
-        additional_text: string(STR_DESC_MA60);
+		default: switch_ma600_graphics;
+		purchase: spriteset_ma600_purchase;
+        additional_text: string(STR_DESC_MA600);
         sound_effect: SOUND_SKID_PLANE;
-		cargo_age_period: switch_cargo_age_ma60;
-		name: switch_ma60_name;
-		loading_speed: switch_ma60_loadspd;
+		cargo_age_period: switch_cargo_age_ma600;
+		loading_speed: switch_ma600_loadspd;
 	}
 }

@@ -6,13 +6,26 @@ STR_GRF_DESC :China Set:Aircraft.{}Github:{URL}{}{WHITE}{VERSION}{}{RED}{NUMBER}
 
 #Vehicle Names
 STR_NAME_MA60 :Modern Ark 60
+STR_NAME_MA60_TEST :Xian Y-7-200A
+STR_NAME_MA600 :Modern Ark 600
+STR_NAME_MA600F :Modern Ark 600F
+STR_NAME_Y7 :Xian Y-7
+STR_NAME_Y7H500 :Xian Y-7-H500
+STR_NAME_Y7200A :Xian Y-7-200A
+STR_NAME_Y7200B :Xian Y-7-200B
 
 #Vehicle Descriptions
-STR_DESC_MA60 :{}{}{BLACK}MA60 is a 50-60 seat class twin-turboprop regional airliner developed and produced by Xi 'an Aircraft Industry (Group) Co., Ltd. under the Aviation Industry Corporation of China on the basis of the Y-7 short/medium range transport aircraft.
+STR_DESC_MA60 :{}{BLACK}MA60 is a 50-60 seat class twin-turboprop regional airliner developed and produced by Xi 'an Aircraft Industry (Group) Co., Ltd. under the Aviation Industry Corporation of China on the basis of the Y-7 short/medium range transport aircraft.
+STR_DESC_MA600 :{}{BLACK}None
+STR_DESC_MA600F :{}{BLACK}None
+STR_DESC_Y7 :{}{BLACK}None
+STR_DESC_Y7H500 :{}{BLACK}None
+STR_DESC_Y7200A :{}{BLACK}None
+STR_DESC_Y7200B :{}{BLACK}None
 
 #GRF Parameters
 STR_PARAM_NAME_8BPP_32BPP :Change sprites type
-STR_PARAM_DESC_8BPP_32BPP :Switch between 32 bit sprites /8 bit sprites
+STR_PARAM_DESC_8BPP_32BPP :This option is no longer valid and the graphics are now always a 32bpp palette.
 STR_PARAM_8BPP_32BPP_32BPP_NAME :32 bit
 STR_PARAM_8BPP_32BPP_8BPP_NAME :8 bit
 STR_PARAM_NAME_COST :Vehicle purchase cost
@@ -52,6 +65,12 @@ STR_PARAM_CARGO_AGE_2 :75%
 STR_PARAM_CARGO_AGE_3 :Default
 STR_PARAM_CARGO_AGE_4 :125%
 STR_PARAM_CARGO_AGE_5 :150%
+STR_PARAM_NAME_LOAD_SPED :Vehicle loading speed
+STR_PARAM_DESC_LOAD_SPED :Change vehicle loading speed
+STR_PARAM_LOAD_0 :1/2x
+STR_PARAM_LOAD_1 :Default
+STR_PARAM_LOAD_2 :2x
+STR_PARAM_LOAD_3 :4x
 
 #Other
 STR_EMPTY :Empty

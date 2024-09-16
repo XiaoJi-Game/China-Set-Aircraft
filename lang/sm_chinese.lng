@@ -8,11 +8,11 @@ STR_GRF_DESC :中国包：飞机.{}Github:{URL}{}{WHITE}{VERSION}{}{RED}{NUMBER}
 STR_NAME_MA60 :新舟60
 
 #载具介绍
-STR_DESC_MA60 :{}{}{BLACK}新舟60是中国航空工业集团公司下属西安飞机工业(集团)有限责任公司在运-7短/中程运输机的基础上研制生产的50-60座级双涡轮螺旋桨发动机支线客机.
+STR_DESC_MA60 :{}{BLACK}新舟60是中国航空工业集团公司下属西安飞机工业(集团)有限责任公司在运-7短/中程运输机的基础上研制生产的50-60座级双涡轮螺旋桨发动机支线客机.
 
 #GRF参数
 STR_PARAM_NAME_8BPP_32BPP :改变图形类型
-STR_PARAM_DESC_8BPP_32BPP :在32位图形/8位图形之间切换
+STR_PARAM_DESC_8BPP_32BPP :这个选项不再有效,图形现在总是一个32bpp调色板
 STR_PARAM_8BPP_32BPP_32BPP_NAME :32 bit
 STR_PARAM_8BPP_32BPP_8BPP_NAME :8 bit
 STR_PARAM_NAME_COST :载具购买成本

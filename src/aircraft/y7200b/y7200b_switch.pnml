@@ -1,0 +1,30 @@
+/*
+switch(FEAT_AIRCRAFT, SELF, switch_ma60_stop, airport_type){
+	bitmask(AIRPORTTYPE_SMALL): sprite_ma60_stop_small;
+	bitmask(AIRPORTTYPE_LARGE): sprite_ma60_stop_large;
+	sprite_ma60_stop_small;
+}
+*/
+
+switch(FEAT_AIRCRAFT, SELF, switch_y7200b_taxi, motion_counter % 3){
+	1: sprite_y7200b_taxi_1;
+	2: sprite_y7200b_taxi_2;
+	sprite_y7200b_taxi_3;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_y7200b_under, vehicle_is_crashed){
+	0: switch_y7200b_taxi;
+	1: sprite_y7200b_crashed;
+	switch_y7200b_taxi;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_y7200b_flying, motion_counter % 3){
+	1: sprite_y7200b_flying_1;
+	2: sprite_y7200b_flying_2;
+    sprite_y7200b_flying_3;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_y7200b_graphics, aircraft_height){
+	1..16: switch_y7200b_under;
+	switch_y7200b_flying;
+}
