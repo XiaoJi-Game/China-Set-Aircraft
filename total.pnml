@@ -9,3 +9,51 @@
 #include "src/aircraft/ma60/ma60_switch_main.pnml"
 
 #include "src/aircraft/ma60/ma60_main.pnml"
+
+//ma600
+#include "src/aircraft/ma600/ma600_spriteset.pnml"
+
+#include "src/aircraft/ma600/ma600_switch.pnml"
+#include "src/aircraft/ma600/ma600_switch_main.pnml"
+
+#include "src/aircraft/ma600/ma600_main.pnml"
+
+//ma600f
+#include "src/aircraft/ma600f/ma600f_spriteset.pnml"
+
+#include "src/aircraft/ma600f/ma600f_switch.pnml"
+#include "src/aircraft/ma600f/ma600f_switch_main.pnml"
+
+#include "src/aircraft/ma600f/ma600f_main.pnml"
+
+//y7
+#include "src/aircraft/y7/y7_spriteset.pnml"
+
+#include "src/aircraft/y7/y7_switch.pnml"
+#include "src/aircraft/y7/y7_switch_main.pnml"
+
+#include "src/aircraft/y7/y7_main.pnml"
+
+//y7h500
+#include "src/aircraft/y7h500/y7h500_spriteset.pnml"
+
+#include "src/aircraft/y7h500/y7h500_switch.pnml"
+#include "src/aircraft/y7h500/y7h500_switch_main.pnml"
+
+#include "src/aircraft/y7h500/y7h500_main.pnml"
+
+//y7200a
+#include "src/aircraft/y7200a/y7200a_spriteset.pnml"
+
+#include "src/aircraft/y7200a/y7200a_switch.pnml"
+#include "src/aircraft/y7200a/y7200a_switch_main.pnml"
+
+#include "src/aircraft/y7200a/y7200a_main.pnml"
+
+//y7200b
+#include "src/aircraft/y7200b/y7200b_spriteset.pnml"
+
+#include "src/aircraft/y7200b/y7200b_switch.pnml"
+#include "src/aircraft/y7200b/y7200b_switch_main.pnml"
+
+#include "src/aircraft/y7200b/y7200b_main.pnml"

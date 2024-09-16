@@ -6,6 +6,6 @@
 *.bat
 *.nml
 gorender.txt
-*.exe
 *.py
+*.exe
 total.pnml

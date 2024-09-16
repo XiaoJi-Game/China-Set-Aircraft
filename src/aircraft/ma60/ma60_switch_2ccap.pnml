@@ -1,8 +1,10 @@
+/*
 switch(FEAT_AIRCRAFT, SELF, switch_ma60_stop, airport_type){
 	bitmask(AIRPORTTYPE_SMALL): sprite_ma60_stop_small;
 	bitmask(AIRPORTTYPE_LARGE): sprite_ma60_stop_large;
 	sprite_ma60_stop_small;
 }
+*/
 
 switch(FEAT_AIRCRAFT, SELF, switch_ma60_taxi, motion_counter % 3){
 	1: sprite_ma60_taxi_1;

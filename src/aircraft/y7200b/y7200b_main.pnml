@@ -1,0 +1,37 @@
+item(FEAT_AIRCRAFT, item_air_y7200b){
+	property{
+		name: string(STR_NAME_Y7200B);
+		climates_available: ALL_CLIMATES & ~bitmask(CLIMATE_TOYLAND);
+		introduction_date: date(1998,01,01);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 20;
+		reliability_decay: 35;
+		refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		non_refittable_cargo_classes: bitmask();
+		loading_speed: 14;
+		cost_factor: 116;
+		running_cost_factor: 85;
+		cargo_age_period: 88;
+        variant_group: 3;
+		extra_flags: bitmask(VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        
+		sprite_id: SPRITE_ID_NEW_AIRCRAFT;
+		speed: 505 km/h;
+		range: 395;
+        misc_flags: bitmask(AIRCRAFT_FLAG_2CC);
+		refit_cost: 0;
+		aircraft_type: AIRCRAFT_TYPE_SMALL;
+		acceleration: 28;
+		passenger_capacity: 52;
+		mail_capacity: 20;
+		sound_effect: SOUND_TAKEOFF_PROPELLER;
+	}
+	graphics{
+		default: switch_y7200b_graphics;
+		purchase: spriteset_y7200b_purchase;
+        additional_text: string(STR_DESC_Y7200B);
+        sound_effect: SOUND_SKID_PLANE;
+		cargo_age_period: switch_cargo_age_y7200b;
+		loading_speed: switch_y7200b_loadspd;
+	}
+}
