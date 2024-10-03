@@ -1,0 +1,22 @@
+switch(FEAT_AIRCRAFT, SELF, switch_c919_taxi, motion_counter % 3){
+	1: sprite_c919_taxi_1;
+	2: sprite_c919_taxi_2;
+	sprite_c919_taxi_3;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_c919_under, vehicle_is_crashed){
+	0: switch_c919_taxi;
+	1: sprite_c919_crashed;
+	switch_c919_taxi;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_c919_flying, motion_counter % 3){
+	1: sprite_c919_flying_1;
+	2: sprite_c919_flying_2;
+    sprite_c919_flying_3;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_c919_graphics, aircraft_height){
+	1..16: switch_c919_under;
+	switch_c919_flying;
+}

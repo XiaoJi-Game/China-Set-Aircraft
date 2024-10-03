@@ -1,0 +1,21 @@
+spriteset(spriteset_arj21er_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_purchase_32(0, 0)
+}
+
+switch (FEAT_AIRCRAFT, SELF, switch_cargo_age_arj21er, param[5]) {
+	0: return 0;
+	1: return 120 * 1/2;
+	2: return 120 * 3/4;
+	3: return 120;
+	4: return 120 * 5/4;
+	5: return 120 * 3/2;
+	return 120;
+}
+
+switch (FEAT_AIRCRAFT, SELF, switch_arj21er_loadspd, param[4]) {
+	0: return 20 * 1/2;
+	1: return 20;
+	2: return 20 * 2;
+	3: return 20 * 4;
+	return 20;
+}

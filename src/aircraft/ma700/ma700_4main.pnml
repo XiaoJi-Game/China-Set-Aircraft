@@ -1,0 +1,36 @@
+item(FEAT_AIRCRAFT, item_air_ma700, 4){
+	property{
+		name: string(STR_NAME_MA700);
+		climates_available: ALL_CLIMATES & ~bitmask(CLIMATE_TOYLAND);
+		introduction_date: date(2021,01,01);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 25;
+		reliability_decay: 28;
+		refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		non_refittable_cargo_classes: bitmask();
+		loading_speed: 16;
+		cost_factor: 38;
+		running_cost_factor: 21;
+		cargo_age_period: 95;
+        variant_group: 4;
+        
+		sprite_id: SPRITE_ID_NEW_AIRCRAFT;
+		speed: 580 km/h;
+		range: 450;
+        misc_flags: bitmask(AIRCRAFT_FLAG_2CC);
+		refit_cost: 0;
+		aircraft_type: AIRCRAFT_TYPE_SMALL;
+		acceleration: 30;
+		passenger_capacity: 70;
+		mail_capacity: 6;
+		sound_effect: SOUND_TAKEOFF_PROPELLER;
+	}
+	graphics{
+		default: switch_ma700_graphics;
+		purchase: spriteset_ma700_purchase;
+        additional_text: string(STR_DESC_MA700);
+        sound_effect: SOUND_SKID_PLANE;
+		cargo_age_period: switch_cargo_age_ma700;
+		loading_speed: switch_ma700_loadspd;
+	}
+}

@@ -9,15 +9,15 @@ item(FEAT_AIRCRAFT, item_air_y7h500){
 		refittable_cargo_classes: ALL_CARGO_CLASSES & ~bitmask(CC_PASSENGERS);
 		non_refittable_cargo_classes: bitmask(CC_PASSENGERS);
 		loading_speed: 18;
-		cost_factor: 116;
-		running_cost_factor: 85;
+		cost_factor: 29;
+		running_cost_factor: 16;
 		cargo_age_period: 88;
         variant_group: 3;
 		extra_flags: bitmask(VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         
 		sprite_id: SPRITE_ID_NEW_AIRCRAFT;
 		speed: 500 km/h;
-		range: 390;
+		range: 183;
         misc_flags: bitmask(AIRCRAFT_FLAG_2CC);
 		refit_cost: 0;
 		aircraft_type: AIRCRAFT_TYPE_SMALL;

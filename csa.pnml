@@ -2,9 +2,10 @@ grf {
     grfid: "\58\43\53\01";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESC);
-	version: 16;
+	version: 17;
 	min_compatible_version: 0;
 
+/*
 	param 1{
 		param_8bpp_32bpp{
 			type: int;
@@ -19,6 +20,7 @@ grf {
 			};
 		}
 	}
+*/
 
 	param 2{
 		param_cost{
@@ -27,7 +29,7 @@ grf {
 			desc: string(STR_PARAM_DESC_COST);
 			min_value: 0;
 			max_value: 24;
-			def_value: 8;
+			def_value: 10;
 			names: {
 				0: string(STR_PARAM_COST_800);
 				1: string(STR_PARAM_COST_700);
@@ -65,7 +67,7 @@ grf {
 			desc: string(STR_PARAM_DESC_RUN_COST);
 			min_value: 0;
 			max_value: 24;
-			def_value: 8;
+			def_value: 10;
 			names: {
 				0: string(STR_PARAM_COST_800);
 				1: string(STR_PARAM_COST_700);

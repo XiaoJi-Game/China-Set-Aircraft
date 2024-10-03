@@ -1,0 +1,35 @@
+spriteset(sprite_arj21_flying_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_arj21_flying_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_arj21_flying_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_arj21_crashed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_arj21_taxi_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_arj21_taxi_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_arj21_taxi_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_arj21_stop_small, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}
+
+spriteset(sprite_arj21_stop_large, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_small_32(0, 0)
+}

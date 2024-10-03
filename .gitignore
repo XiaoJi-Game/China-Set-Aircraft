@@ -3,7 +3,6 @@
 /.vs
 /backups
 *.grf
-*.nml
 gorender.txt
 *.exe
-total.pnml
+*.zip

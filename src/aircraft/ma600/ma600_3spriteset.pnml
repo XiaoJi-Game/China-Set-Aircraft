@@ -1,35 +1,35 @@
-spriteset(sprite_ma600_flying_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\flying\ma600_flying_1_4x_32bpp.png"){
+spriteset(sprite_ma600_flying_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }
 
-spriteset(sprite_ma600_flying_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\flying\ma600_flying_2_4x_32bpp.png"){
+spriteset(sprite_ma600_flying_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }
 
-spriteset(sprite_ma600_flying_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\flying\ma600_flying_3_4x_32bpp.png"){
+spriteset(sprite_ma600_flying_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }
 
-spriteset(sprite_ma600_crashed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\crashed\ma600_crashed_4x_32bpp.png"){
+spriteset(sprite_ma600_crashed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }
 
-spriteset(sprite_ma600_taxi_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\taxi\ma600_taxi_1_4x_32bpp.png"){
+spriteset(sprite_ma600_taxi_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }
 
-spriteset(sprite_ma600_taxi_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\taxi\ma600_taxi_2_4x_32bpp.png"){
+spriteset(sprite_ma600_taxi_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }
 
-spriteset(sprite_ma600_taxi_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\taxi\ma600_taxi_3_4x_32bpp.png"){
+spriteset(sprite_ma600_taxi_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }
 
-spriteset(sprite_ma600_stop_small, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\loading\ma600_loading_4x_32bpp.png"){
+spriteset(sprite_ma600_stop_small, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }
 
-spriteset(sprite_ma600_stop_large, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\default\ma600_4x_32bpp.png"){
+spriteset(sprite_ma600_stop_large, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_small_32(0, 0)
 }

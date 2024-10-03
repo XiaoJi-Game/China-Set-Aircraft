@@ -9,15 +9,15 @@ item(FEAT_AIRCRAFT, item_air_ma600f){
 		refittable_cargo_classes: ALL_CARGO_CLASSES & ~bitmask(CC_PASSENGERS, CC_LIQUID);
 		non_refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_LIQUID);
 		loading_speed: 15;
-		cost_factor: 141;
-		running_cost_factor: 102;
+		cost_factor: 35;
+		running_cost_factor: 19;
 		cargo_age_period: 90;
         variant_group: 2;
 		extra_flags: bitmask(VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         
 		sprite_id: SPRITE_ID_NEW_AIRCRAFT;
 		speed: 514 km/h;
-		range: 408;
+		range: 267;
         misc_flags: bitmask(AIRCRAFT_FLAG_2CC);
 		refit_cost: 0;
 		aircraft_type: AIRCRAFT_TYPE_SMALL;

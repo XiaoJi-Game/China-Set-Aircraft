@@ -1,4 +1,4 @@
-spriteset(spriteset_ma600_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ma600\default\ma600_4x_32bpp.png"){
+spriteset(spriteset_ma600_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
 	template_purchase_32(0, 0)
 }
 
