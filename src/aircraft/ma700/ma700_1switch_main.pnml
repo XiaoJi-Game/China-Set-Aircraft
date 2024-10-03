@@ -1,0 +1,21 @@
+spriteset(spriteset_ma700_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\name_4x_32bpp.png"){
+	template_purchase_32(0, 0)
+}
+
+switch (FEAT_AIRCRAFT, SELF, switch_cargo_age_ma700, param[5]) {
+	0: return 0;
+	1: return 95 * 1/2;
+	2: return 95 * 3/4;
+	3: return 95;
+	4: return 95 * 5/4;
+	5: return 95 * 3/2;
+	return 95;
+}
+
+switch (FEAT_AIRCRAFT, SELF, switch_ma700_loadspd, param[4]) {
+	0: return 16 * 1/2;
+	1: return 16;
+	2: return 16 * 2;
+	3: return 16 * 4;
+	return 16;
+}

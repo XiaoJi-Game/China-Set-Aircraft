@@ -1,0 +1,37 @@
+item(FEAT_AIRCRAFT, item_air_c919er){
+	property{
+		name: string(STR_NAME_C919ER);
+		climates_available: ALL_CLIMATES & ~bitmask(CLIMATE_TOYLAND);
+		introduction_date: date(2023,11,01);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 40;
+		reliability_decay: 20;
+		refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		non_refittable_cargo_classes: bitmask();
+		loading_speed: 30;
+		cost_factor: 127;
+		running_cost_factor: 70;
+		cargo_age_period: 180;
+        variant_group: 5;
+		extra_flags: bitmask(VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        
+		sprite_id: SPRITE_ID_NEW_AIRCRAFT;
+		speed: 960 km/h;
+		range: 926;
+        misc_flags: bitmask(AIRCRAFT_FLAG_2CC);
+		refit_cost: 0;
+		aircraft_type: AIRCRAFT_TYPE_SMALL;
+		acceleration: 60;
+		passenger_capacity: 192;
+		mail_capacity: 12;
+		sound_effect: SOUND_TAKEOFF_PROPELLER;
+	}
+	graphics{
+		default: switch_c919er_graphics;
+		purchase: spriteset_c919er_purchase;
+        additional_text: string(STR_DESC_C919ER);
+        sound_effect: SOUND_SKID_PLANE;
+		cargo_age_period: switch_cargo_age_c919er;
+		loading_speed: switch_c919er_loadspd;
+	}
+}

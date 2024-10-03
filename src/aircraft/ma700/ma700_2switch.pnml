@@ -1,0 +1,22 @@
+switch(FEAT_AIRCRAFT, SELF, switch_ma700_taxi, motion_counter % 3){
+	1: sprite_ma700_taxi_1;
+	2: sprite_ma700_taxi_2;
+	sprite_ma700_taxi_3;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_ma700_under, vehicle_is_crashed){
+	0: switch_ma700_taxi;
+	1: sprite_ma700_crashed;
+	switch_ma700_taxi;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_ma700_flying, motion_counter % 3){
+	1: sprite_ma700_flying_1;
+	2: sprite_ma700_flying_2;
+    sprite_ma700_flying_3;
+}
+
+switch(FEAT_AIRCRAFT, SELF, switch_ma700_graphics, aircraft_height){
+	1..16: switch_ma700_under;
+	switch_ma700_flying;
+}
