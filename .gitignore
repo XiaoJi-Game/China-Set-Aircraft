@@ -3,9 +3,7 @@
 /.vs
 /backups
 *.grf
-*.bat
 *.nml
 gorender.txt
-*.py
 *.exe
 total.pnml
